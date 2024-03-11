@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="utf-8">
+      <title>Creación de usuario</title>
+    </head>
+    <body>
+      <h1 align="center">Creación de usuario</h1>
+        <form>
+          <table border="1">
+            <tr>
+              <td>
+                <b>Nombre real:</b><input type="text">
+              </td>
+              <td>
+                <b>Nombre de usuario:</b><input type="text">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>Contraseña:</b><label style="font-size:12px;"><i>Tu contraseña debe incluir al menos 1 mayúscula, 1 número y 1 carácter especial</i></label><input type="password">
+              </td>
+              <td>
+                <b>Repetir contraseña:</b><input type="password">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <fieldset>
+                  <legend><b>Sexo</b></legend>
+                  Mujer<input type="radio" id="Mujer" name="género" value="Mujer">
+                  Hombre<input type="radio" id="Hombre" name="género" value="Hombre">
+                  Otro<input type="radio" id="Otro" name="género" value="Otro">
+                </fieldset>
+              </td>
+              <td>
+                <b>Su edad:</b>
+              <select>
+                <optgroup label="Edad">
+                  <option>18-25</option>
+                  <option>25-30</option>
+                  <option>30-35</option>
+                  <option>35-40</option>
+                  <option>40-45</option>
+                  <option>45-50</option>
+                  <option>50-55</option>
+                  <option>55-60</option>
+                  <option>60-65</option>
+                  <option>65-70</option>
+                  <option>70-75</option>
+                </optgroup>
+              </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>¿Tiene ideas para añadir a nuestra página web?</b>
+                <textarea>Escriba algo aquí</textarea>
+              </td>
+              <td>
+                <p><b>Seleccione sus marcas de coche favoritas (entre las que le mostramos):</b></p>
+                Aston Martin<input type="checkbox">
+                Koenigsegg<input type="checkbox">
+                Ferrari<input type="checkbox">
+                Lamborghini<input type="checkbox">
+                Bugatti<input type="checkbox">
+                Mercedes<input type="checkbox">
+                BMW<input type="checkbox">
+                Audi<input type="checkbox">
+                Toyota<input type="checkbox">
+                Mitsubishi<input type="checkbox">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>Correo electrónico</b><input type="text">
+              </td>
+              <td>
+                <b>Foto de perfil</b><input type="file">
+              </td>
+            </tr>
+            <th colspan="2">
+              <input type="submit" value="Enviar">
+            </th>
+          </table>
+        </form>
+        <h2 align="center">¿Quienes somos y qué ofrecemos?</h2>
+        <table border="1" align="center">
+          <tr>
+            <td>
+              <b>Quienes somos</b>
+            </td>
+            <td>
+              <b>Qué ofrecemos</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Simplemente somos estudiantes que quieren hacer una web de información básica sobre vehículos. No buscamos nada a cambio, únicamente queremos hacer una práctica sobre un tema que nos interesa y creemos que puede interesar
+            </td>
+            <td>
+              <ul>
+                <li>Información sobre la clasificación básica de vehículos</li>
+                <li>Información sobre losnsuperdeportivos más influyentes</li>
+                <li>Información sobre los coches según donde se hayan fabricado</li>
+                <li>Todo esto sin nada a cambio, sin cookies ni nada</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <a href="index.html">Volver al inicio</a>
+    </body>
+  </html>
